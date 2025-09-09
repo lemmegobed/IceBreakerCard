@@ -1,16 +1,23 @@
-# rookan
+# IceBreakerCard
 
-A new Flutter project.
+**IceBreakerCard** เป็นแอป Flutter สำหรับสุ่มคำถาม Icebreaker เพื่อเริ่มการสนทนา เหมาะสำหรับเล่นกับเพื่อนหรือคนที่อยากรู้จัก กิจกรรมกลุ่ม
 
-## Getting Started
+แอปมีฟีเจอร์:  
+- เลือกหมวดคำถาม: ทั่วไป, ผ่อนคลาย, การงาน/เรียน, ทัศนคติ/ความคิด  
+- สุ่มคำถามชวนคุย
+- บันทึกคำถามโปรดและแชร์ไปยังแอปอื่น  
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+# 1. โคลนโปรเจกต์
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- gh repo clone lemmegotobed/IceBreakerCard
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- cd IceBreakerCard
+
+# 2. ติดตั้ง Dependencies
+
+- flutter pub get
+
+# 3. รันแอป
+
+- flutter run or flutter run -d chrome
