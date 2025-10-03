@@ -424,16 +424,16 @@ class _EditQuestionsPageState extends State<EditQuestionsPage> {
               padding: const EdgeInsets.all(12),
               itemCount: _questions.length,
               itemBuilder: (_, i) => Card(
-                color: Colors.white, // พื้นหลังขาว
+                color: Colors.white, 
                 margin: const EdgeInsets.symmetric(vertical: 6),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16),
                   side: BorderSide(
-                    color: Colors.grey.shade700, // ขอบสีเทาเข้ม
+                    color: Colors.grey.shade700, 
                     width: 1,
                   ),
                 ),
-                elevation: 0, // ไม่มีเงา
+                elevation: 0, 
                 child: Padding(
                   padding:
                       const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
