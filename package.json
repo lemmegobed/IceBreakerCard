@@ -1,0 +1,28 @@
+{
+  "name": "rookan",
+  "version": "1.0.0",
+  "description": "**IceBreakerCard** เป็นแอป Flutter สำหรับสุ่มคำถามลายพฤติกรรม เพื่อเริ่มการสนทนา ทำความรู้จักกันมากขึ้น เหมาะสำหรับเล่นกับเพื่อนหรือคนที่อยากรู้จัก กิจกรรมกลุ่ม",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemmegotobed/IceBreakerCard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemmegotobed/IceBreakerCard/issues"
+  },
+  "homepage": "https://github.com/lemmegotobed/IceBreakerCard#readme",
+  "dependencies": {
+    "@faker-js/faker": "^10.0.0",
+    "pocketbase": "^0.26.2"
+  }
+}
