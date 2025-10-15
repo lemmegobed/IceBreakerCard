@@ -10,27 +10,25 @@
 
 # 1. โคลนโปรเจกต์
 
-- gh repo clone lemmegotobed/IceBreakerCard
-
-- cd IceBreakerCard
+<pre><code>gh repo clone lemmegotobed/IceBreakerCard</code></pre>
+<pre><code>cd IceBreakerCard</code></pre>
 
 # 2. ติดตั้ง Dependencies
 
-- flutter pub get
+<pre><code>flutter pub get</code></pre>
 
 # 3. ติดตั้ง PocketBase  
 
 ถ้าไม่มี PocketBase ให้ดาวน์โหลดได้จาก https://pocketbase.io/docs/
 
-    ```bash
-    /pocketbase serve
-    ```
-
-    `./pocketbase serve`
-
 <pre><code>./pocketbase serve</code></pre>
 
+จากนั้นเข้าเข้าสู่ระบบ http://127.0.0.1:8090/_/ สร้างฐานข้อมูลและCollection ตั้งชื่อ questions
+
+# 4. สร้างข้อมูลจำลองด้วย Faker
+
+<pre><code>node tools/seed_faker.mjs </code></pre>
+
 # 3. รันแอป
-    ```bash
-    flutter run or flutter run -d chrome
-    ```
+
+<pre><code>flutter run or flutter run -d chrome</code></pre>
