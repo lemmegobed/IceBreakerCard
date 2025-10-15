@@ -18,6 +18,14 @@
 
 - flutter pub get
 
-# 3. รันแอป
+# 3. ติดตั้ง PocketBase  ถ้าไม่มี PocketBase ให้ดาวน์โหลดได้จาก https://pocketbase.io/docs/
 
-- flutter run or flutter run -d chrome
+    ```bash
+    /pocketbase serve
+    ```
+
+
+# 3. รันแอป
+    ```bash
+    flutter run or flutter run -d chrome
+    ```
