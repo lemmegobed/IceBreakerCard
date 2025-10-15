@@ -18,12 +18,17 @@
 
 - flutter pub get
 
-# 3. ติดตั้ง PocketBase  ถ้าไม่มี PocketBase ให้ดาวน์โหลดได้จาก https://pocketbase.io/docs/
+# 3. ติดตั้ง PocketBase  
+
+ถ้าไม่มี PocketBase ให้ดาวน์โหลดได้จาก https://pocketbase.io/docs/
 
     ```bash
     /pocketbase serve
     ```
 
+    `./pocketbase serve`
+
+<pre><code>./pocketbase serve</code></pre>
 
 # 3. รันแอป
     ```bash
