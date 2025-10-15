@@ -22,7 +22,7 @@
 
 ถ้าไม่มี PocketBase ให้ดาวน์โหลดได้จาก https://pocketbase.io/docs/
 
-<pre><code>./pocketbase serve</code></pre>
+<pre><code>/pocketbase serve</code></pre>
 
 จากนั้นเข้าเข้าสู่ระบบ http://127.0.0.1:8090/_/ สร้างฐานข้อมูลและCollection ตั้งชื่อ questions
 
